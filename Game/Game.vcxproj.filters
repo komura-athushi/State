@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{ff2c221f-f833-4846-8853-b92f40448bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy\state">
+      <UniqueIdentifier>{4ed031b5-1918-4e9d-b645-3c42078bd70d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="FireBall.cpp" />
+    <ClCompile Include="Lever.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Fade.cpp" />
+    <ClCompile Include="Enemy.cpp">
+      <Filter>enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+    <ClCompile Include="ChaseState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+    <ClCompile Include="DamagedState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+    <ClCompile Include="DownState.cpp">
+      <Filter>enemy\state</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="FireBall.h" />
+    <ClInclude Include="Lever.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Fade.h" />
+    <ClInclude Include="Enemy.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+    <ClInclude Include="ChaseState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+    <ClInclude Include="DamagedState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+    <ClInclude Include="DownState.h">
+      <Filter>enemy\state</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
